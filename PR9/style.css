@@ -1,0 +1,113 @@
+html,body
+{
+    height: 100%;
+}
+body{
+    background: rgb(183,63,251);
+background: radial-gradient(circle, rgba(183,63,251,1) 0%, rgba(252,161,70,1) 0%, rgba(119,222,126,1) 58%, rgba(220,116,116,1) 98%);
+}
+.blocks{
+
+    width:60%;
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    margin: auto;
+    align-self: center; 
+    margin-top: 10%;
+
+}
+.header
+{
+    display:flex;
+    flex-direction:row;
+    justify-content: space-between;
+    color: honeydew;
+    font-size: 200%;
+    background-color: rgb(55, 172, 9);
+}
+#player1
+{
+    margin-left: 5%;
+}
+#player2
+{
+    float: right;
+    margin-right: 5%;
+}
+.users{
+    display:flex;
+    flex-direction:row;
+    justify-content: space-between;
+    background-color: rgb(10, 153, 34);
+}
+#user_avatar
+{
+    margin-left: 5%;
+}
+#comp
+{
+    
+    margin-right: 5%;
+}
+.game
+{
+    display:flex;
+    flex-direction:row;
+    justify-content: space-between;
+    color: honeydew;
+ 
+    height: 20%;
+ 
+    font-size: 100px;
+    background-color: rgb(9, 143, 31);
+}
+#count_player_1
+{
+    margin-left: 5%;
+}
+#count_player_2
+{
+    margin-right: 5%;
+    float: right;
+}
+#result
+{    
+    margin-left: auto;
+    font-size: 30%;
+}
+.card{
+    width: 30%;
+    height:100%;
+}
+.vs{
+    height:40%;
+    width:30%;
+}
+#card_player1
+{
+    margin-left: 30%
+}
+.comput
+{
+    margin-right: 7.5%;
+}
+#attempt
+{
+    
+    font-size: 20px;
+}
+#count_attemp
+{
+    margin-left: 35%;
+    font-size: 20px;
+}
+.btn1
+{
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    margin: auto;
+    align-self: center;
+    margin-top: 2%;
+}
